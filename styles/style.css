@@ -1,0 +1,68 @@
+.header {
+    margin-top:15vh;
+    margin-left: 40vh;
+    height: 30vh ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: end;
+    margin-bottom: 50px;
+
+}
+
+.header-title h1 {
+    font-size: 3em;
+
+}
+
+.header-content {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.header-content p {
+    width: 50%;
+    line-height: 25px;
+}
+
+.all-images {
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    grid-template-rows: repeat(2 , 600px);
+    gap: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* .image {
+    margin-top: 20px;
+    background-color: aqua;
+    border: 5px solid rebeccapurple;
+} */
+
+.image img {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.image h3 {
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    padding: 20PX;
+}
+
+
+.all-image h1 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.two {
+    align-self: end;
+}
+
+.five {
+    align-self: end;
+}
