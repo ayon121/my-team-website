@@ -28,26 +28,31 @@
     display: grid;
     grid-template-columns: repeat( 3 , 1fr);
     grid-template-rows: repeat(2 , 600px);
-    gap: 30px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    gap: 2rem;
+    padding: 2rem 10rem;
 }
 
-/* .image {
-    margin-top: 20px;
-    background-color: aqua;
-    border: 5px solid rebeccapurple;
-} */
+.image {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 1rem;
+    position: relative;
+}
 
 .image img {
-    height: 400px;
-    margin-bottom: 10px;
+    width: 100%;
+}
+
+.two  , .five{
+    margin-top: 12rem;
 }
 
 .image h3 {
+    position: absolute;
     text-transform: uppercase;
     transform: rotate(90deg);
-    padding: 20PX;
+    right: -5rem;
+    top: 3rem;
 }
 
 
@@ -59,20 +64,8 @@
     line-height: normal;
 }
 
-.two {
-    align-self: end;
-}
-
-.five {
-    align-self: end;
-}
-
 
 /* Responsive */
-
-.hide {
-    display: none;
-}
 
 @media screen and (max-width : 576px) {
     .header {
@@ -86,4 +79,14 @@
 
     }
     
+
+    .all-images {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat( 2 , 1fr);
+        grid-template-rows: repeat(3, 600px);
+        gap: 20px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
