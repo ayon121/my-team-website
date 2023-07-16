@@ -66,3 +66,24 @@
 .five {
     align-self: end;
 }
+
+
+/* Responsive */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width : 576px) {
+    .header {
+        margin-top:5vh;
+        margin-left: 5vh;
+        height: 10vh ;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+    
+}
